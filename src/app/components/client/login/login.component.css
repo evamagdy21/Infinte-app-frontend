@@ -1,0 +1,240 @@
+.wrapper{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    min-height: 550px;
+    background-color: #191919;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 0px;
+  }
+  .rightContent{
+    background-color: #191919;
+  
+    min-height: 615px;
+  }
+  .leftContent{
+    background-color: aquamarine;
+    background: url("/../../../../../assets/images/login_bg.jpg") no-repeat;
+    background-size: cover;
+    min-height: 615px;
+    padding: 0px;
+    border-right: 1px solid #5E728A;
+    border-left: 1px solid #5E728A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .leftContent p{
+    color: #fff;
+    font-size: 1.5rem;
+  
+  }
+  .coloredSpan{
+    color: #B59D3F;
+  }
+  
+  .nav-tabs{
+    border-bottom: none;
+    color: #3D3D3D;
+  }
+  
+  
+  .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+  
+    color: #fff;
+    background: none !important;
+    border: none;
+        border-top-color: currentcolor;
+        border-right-color: currentcolor;
+        border-bottom-color: currentcolor;
+        border-left-color: currentcolor;
+   border-bottom: 2px solid #CFA733;
+   line-height: 2rem;
+  }
+  .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    font-size: 1.3rem;
+    color: #676767;
+  
+  }
+  .InputStyle{
+    border:none;
+    background-color: #3D3D3D;
+    color: #fff;
+    width: 75%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  
+  }
+  
+  .InputStyle2{
+    border:none;
+    background-color: #3D3D3D;
+    color: #fff;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  
+  }
+  .PhoneStyle{
+    border:none;
+    background-color: #3D3D3D;
+    color: #fff;
+    width: 75%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .ForegetPassword{
+    max-width: 75% !important;
+  }
+  .ForegetPassword a{
+    color: #93782A;
+    font-size: .8rem;
+    font-weight: bold;
+  }
+  
+  .btnSubmit{
+    border:none;
+    background-color: #CFA733;
+    width: 20%;
+    height: 40px;
+    color: #fff;
+  }
+  
+  .input-group-prepend {
+    margin-right: -1px;
+    height: 40px !important;
+  }
+  
+  .black{
+    background-color:#0B0B0B;
+  }
+  
+  @media (min-width: 300px) {
+  .leftContent{
+    display: none;
+  
+  }
+  .InputStyle{
+    width: 100%;
+  }
+  .btnSubmit{
+    width: 100%;
+  }
+  
+  .black{
+    background-color: #0B0B0B;
+  
+  padding-left:  0px;
+  padding-right:  0px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  }
+  
+  }
+  
+  
+  @media (min-width: 576px) {
+  
+    .leftContent{
+      display: none;
+    }
+    .InputStyle{
+      width: 100%;
+    }
+    .btnSubmit{
+      width: 100%;
+    }
+  
+    .black{
+      background-color: #0B0B0B;
+  
+    padding-left:  120px;
+    padding-right:  120px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    }
+  
+  }
+  
+  
+  @media (min-width: 768px) {
+    .leftContent{
+      display: flex;
+    }
+    .InputStyle{
+      width: 75%;
+    }
+    .btnSubmit{
+      width: 40%;
+    }
+  
+    .black{
+      background-color: #0B0B0B;
+  
+    padding-left:  120px;
+    padding-right:  120px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    }
+  
+  }
+  
+  
+  @media (min-width: 992px) {
+    .leftContent{
+      display: flex;
+    }
+    .InputStyle{
+      width: 75%;
+    }
+    .btnSubmit{
+      width: 30%;
+    }
+  
+    .black{
+      background-color: #0B0B0B;
+  
+    padding-left:  120px;
+    padding-right:  120px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    }
+  
+  }
+  
+  
+  @media (min-width: 1200px) {
+    .leftContent{
+      display: flex;
+    }
+    .InputStyle{
+      width: 75%;
+    }
+    .btnSubmit{
+      width: 20%;
+    }
+    .InputStyle2{
+        width: 63%;
+    }
+    .black{
+      background-color: #0B0B0B;
+  
+    padding-left:  120px;
+    padding-right:  120px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    }
+  }
+  
+  

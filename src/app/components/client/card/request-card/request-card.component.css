@@ -1,0 +1,513 @@
+/* -------------------------Cover Photer--------------------------- */
+.coverPhoto{
+    width: 100%;
+    min-height: 250px;
+    padding-top: 5%;
+    opacity: 0.8;
+    background-color: #010102;
+  }
+  
+  .panner {
+      min-height: 250px;
+  
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+      background-attachment: fixed;
+      position: relative;  background-repeat: round;
+    }
+  
+    #category_banner {
+      background: url(../../../../../assets/images/MainBanner.jpg) no-repeat;
+      background-repeat: no-repeat;
+      background-size: cover;
+  
+      background-attachment: fixed;
+      position: relative;  background-repeat: round;
+  
+    }
+    .panner-title {
+      color: #fff;
+      font-size: 2.4rem;
+      font-weight:bold;
+    }
+    .Line {
+        border-top: 6px solid #efc316;
+        width: 8.4rem;
+        margin-top: 30px;
+        margin: auto;
+  }
+  
+  .black{
+    background-color: #0B0B0B;
+  }
+  /* --------------------------End of Cover Photer--------------------- */
+  /* ---------------content style-------------------------------- */
+  .Field{
+    margin-bottom: 10px;
+  }
+  .clear{
+    width: 100%;
+    height: 1px;
+    clear: both;
+  }
+  .AcceptRule{
+    margin-bottom: 20px;
+  }
+  .LinkOfRules{
+    color: #BCA33F;
+  }
+  
+  .Location{
+    color: #959595;
+    font-size: .8rem;
+  }
+  
+  .paid{
+    color: #959595;
+    margin-bottom: 30px;
+  }
+  input{
+    color: #959595;
+    border-radius: 0px !important;
+    border:1px solid #EBEBEB;
+  }
+  .HeaderForm{
+    color: #959595;
+    font-weight: bold;
+  }
+  .ContainerButton{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .SepratorLine{
+    border: 1px solid #E5E5E5;
+    width:100%;
+  }
+  .Getbtn{
+    background-color:#BCA33F;
+    color: #fff;
+    height: 2.2rem;
+    border:none;
+    margin-bottom: 20px;
+  }
+  .RequestBlock{
+    border: 1px solid #808080;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+  }
+  .RequestBlock a{
+    color: #808080;
+  }
+  
+  .CardLeftContent{
+    background-color: #1C1C21;
+    height: 600px;
+    padding-top: 30px;
+  }
+  .CardLeftContent h5{
+    padding-bottom: 40px;
+    color: #fff;
+  }
+  .validBlockCard{
+    max-width: 100px;
+  }
+  /* ---------------ENd of contetn style------------------------- */
+  /* -------------------------Media Query------------------------ */
+  
+     @media (min-width: 300px) {
+      .coverPhoto{
+        width: 100%;
+        min-height: 250px;
+        padding-top: 15%;
+        opacity: 0.8;
+        background-color: #010102;
+      }
+      .black{
+        background-color:#0B0B0B;
+  
+      padding-left:  0px;
+      padding-right:  0px;
+      padding-top: 70px;
+      padding-bottom: 10px;
+      }
+  .Getbtn{
+    width: 100%;
+  }
+  .phoneNumber{
+    width: 100px !important;
+  }
+  .panner-title {
+    font-size: 1.3rem;
+  }
+    }
+  
+  
+    @media (min-width: 576px) {
+  
+      .coverPhoto{
+        width: 100%;
+        min-height: 250px;
+        padding-top: 8%;
+        opacity: 0.8;
+        background-color: #010102;
+      }
+      .black{
+        background-color: #0B0B0B;
+  
+      padding-left:  120px;
+      padding-right:  120px;
+      padding-top: 30px;
+      padding-bottom: 10px;
+      }
+  
+  
+  .Getbtn{
+    width: 100%;
+  }
+  .phoneNumber{
+    width: 100px !important;
+  }
+  .panner-title {
+    font-size: 1.3rem;
+  }
+    }
+  
+  
+    @media (min-width: 768px) {
+  
+      .coverPhoto{
+        width: 100%;
+        min-height: 250px;
+        padding-top: 10%;
+        opacity: 0.8;
+        background-color: #010102;
+      }
+  
+      .black{
+        background-color: #0B0B0B;
+  
+      padding-left:  120px;
+      padding-right:  120px;
+      padding-top: 30px;
+      padding-bottom: 10px;
+      }
+  
+      .Getbtn{
+        width: 100%;
+      }
+      .phoneNumber{
+        width: 100px !important;
+      }
+      .panner-title {
+        font-size: 1.5rem;
+      }
+    }
+  
+  
+    @media (min-width: 992px) {
+  
+      .coverPhoto{
+        width: 100%;
+        min-height: 250px;
+        padding-top: 8%;
+        opacity: 0.8;
+        background-color: #010102;
+      }
+      .black{
+        background-color: #0B0B0B;
+  
+      padding-left:  120px;
+      padding-right:  120px;
+      padding-top: 30px;
+      padding-bottom: 10px;
+      }
+      .Getbtn{
+        width: 100%;
+      }
+      .phoneNumber{
+        width: 100px !important;
+      }
+      .panner-title {
+        font-size: 2rem;
+      }
+    }
+  
+  
+    @media (min-width: 1200px) {
+  
+      .coverPhoto{
+        width: 100%;
+        min-height: 250px;
+        padding-top: 5%;
+        opacity: 0.8;
+        background-color: #010102;
+      }
+      .black{
+        background-color: #0B0B0B;
+  
+      padding-left:  120px;
+      padding-right:  120px;
+      padding-top: 40px;
+      padding-bottom: 10px;
+      }
+      .Getbtn{
+        width: 100%;
+      }
+      .phoneNumber{
+        width: 100px !important;
+      }
+        .panner-title {
+      font-size: 2.3rem;
+    }
+    }
+  .Price{
+    background-color: #CFA733;
+    width: 35%;
+    color: #fff;
+    border-radius: 35px;
+    height: 50px;
+    padding: 10px;
+  }
+  /* ------------------------------------------------------------ */
+  .sendbtn{
+      background-color:#a68738;
+      border:1px solid #AF9B4C;
+      width: 15.5rem;
+      height: 2.9rem;
+  }
+  .confirmationbtn{
+  
+      background-color: #AF9B4C;
+      border:1px solid #AF9B4C;
+      width: 7.5rem;
+  
+  }
+  .cancelbtn{
+      color: white;
+      background-color:#c2c2c2;
+      border:1px solid #c2c2c2;
+      width: 7.5rem;
+  }
+  
+  .form-control {
+      display: block;
+      width: 100%;
+      height: calc(2em + .75rem + 2px);
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: .25rem;
+      transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  
+  .text-block{
+      background-color: #AF9B4C;
+      color: white;
+      padding: 13px;
+      min-width: 9rem;
+      border-radius: 3%;
+      max-width: 16rem;
+      right: 0rem;
+      height: 6rem;
+    }
+  
+    .pull-left {
+      float: left;
+    }
+    .pull-right{
+        float: right;
+    }
+    .modal-header .close {
+      color:white;
+      margin: initial;
+  }
+  .modal-header{
+      background-color:#AF9B4C;
+      color:white;
+      padding: 0rem;
+  }
+  .modal-title{
+      font-size: 15px;
+      padding: 1rem;
+  }
+  ::ng-deep.modal.show .modal-dialog {
+      -webkit-transform: none;
+      transform: none;
+      margin-top: 12rem !important;
+  }
+  .card-img{
+      width: 25rem;
+      border-radius: 7%;
+  
+  }
+  .card-text{
+      position:absolute;
+      top: 8rem;
+      color:white;
+      left: 9rem;
+      max-width: 330px;
+  }
+  .date{
+       text-align: unset;
+      display: inherit;
+      margin-bottom: 0 !important;
+      font-size: 10px;
+  }
+  input[type='radio']:after {
+      width: 15px;
+      height: 15px;
+      border-radius: 15px;
+      top: -5px;
+  
+      position: relative;
+      background-color: #d1d3d1;
+      content: '';
+      display: inline-block;
+      visibility: visible;
+  
+  }
+  
+  input[type='radio']:checked:after {
+  
+  
+      position: relative;
+      background-color: #AF9B4C;
+      content: '';
+      display: inline-block;
+      visibility: visible;
+  
+  }
+  .modal-footer {
+      display: block !important;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 1rem;
+      border-top: 1px solid #dee2e6;
+      border-bottom-right-radius: .3rem;
+      border-bottom-left-radius: .3rem;
+  }
+  .text-block-discount{
+      background-color: #AF9B4C;
+      color: white;
+      padding: 6px;
+      border-radius: 18%;
+      right: 0rem;
+      width: 11rem;
+      height: 11rem;
+  }
+  agm-map {
+      height: 200px;
+      /* height is required */
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 479px) and (min-width: 310px){
+      .card-img{
+          width: 25rem;
+          border-radius: 7%;
+  
+      }
+      .card-text{
+          position: absolute;
+          top: 6rem;
+          color: white;
+          left: 1rem;
+          font-size: 11px;
+      }
+    }
+    @media only screen and (max-width: 599px) and (min-width: 480px) {
+      .card-img{
+          width: 25rem;
+          border-radius: 7%;
+  
+      }
+      .card-text{
+          position:absolute;
+          top: 8rem;
+          color:white;
+          left: 3rem;
+      }
+    }
+  
+  
+  
+    @media only screen and (max-width: 767px) and (min-width: 600px) {
+      .card-img{
+          width: 25rem;
+          border-radius: 7%;
+  
+      }
+      .card-text{
+          position:absolute;
+          top: 8rem;
+          color:white;
+          left: 4rem;
+      }
+    }
+  
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and  (max-width: 899) and (min-width: 768px) {
+      .card-img{
+          width: 25rem;
+          border-radius: 7%;
+  
+      }
+      .card-text{
+          position:absolute;
+          top: 8rem;
+          color:white;
+           left: 21rem;
+      }
+    }
+  
+    @media only screen and (max-width: 1023px) and (min-width: 900px){
+      .card-img{
+          width: 25rem;
+          border-radius: 7%;
+  
+      }
+      .card-text{
+          position:absolute;
+          top: 8rem;
+          color:white;
+          left: 9rem;
+      }
+  
+    }
+    @media only screen and (max-width: 1199px) and (min-width: 1024px) {
+      .card-img{
+          width: 25rem;
+          border-radius: 7%;
+  
+      }
+      .card-text{
+          position: absolute;
+          top: 8rem;
+          color: white;
+          left: 15rem;
+      }
+  
+    }
+    @media only screen and (min-width: 1200px){
+      .card-img{
+          width: 25rem;
+          border-radius: 7%;
+  
+      }
+      .card-text{
+          position:absolute;
+          top: 10rem;
+          color:white;
+          /* left: 21rem; */
+      }
+    }
+  

@@ -1,0 +1,82 @@
+<footer class="site-footer pt-5 ">
+  <div class="container-fluid ">
+    <div class="row">
+      <div class=" col-lg-3 col-md-6 col-sm-12 AdvertisBlock AdvertisBlockPadding">
+        <img src="../../../../assets/images/logo.png" alt="" class="img-fluid"><br>
+        <p>{{'shared.footerpargraph'|translate}}</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 AdvertisBlock AdvertisBlockPadding">
+        <h5 class="footer-heading mb-4">{{'shared.QUICKLINKS'|translate}}</h5>
+        <ul class="list-unstyled p-0">
+          <li><a routerLinkActive="active">{{'store.Success-partners'|translate}}</a></li>
+          <li><a routerLinkActive="active" [routerLink]="['/contact-us']">{{'shared.suggestionsComplations'|translate}}
+            </a> </li>
+          <li><a routerLinkActive="active" routerLink="/Page/4">{{'shared.privacy'|translate}} </a> </li>
+          <li><a routerLinkActive="active" routerLink="/Page/2">{{'shared.TermsandConditions'|translate}}</a></li>
+          <li><a routerLinkActive="active" routerLink="/Page/1">{{'shared.aboutUs'|translate}}</a></li>
+          <li><a routerLinkActive="active" routerLink="/Page/5">{{'shared.FAQ'|translate}}</a></li>
+        </ul>
+      </div>
+      <div class=" col-lg-3 col-md-6 col-sm-12 AdvertisBlock AdvertisBlockPadding ">
+        <h5 class="footer-heading mb-4">{{'shared.Subscribe'|translate}}</h5>
+        <form class=" p-0">
+          <div class="form-row " data-wow-delay="1s">
+            <div class="input-group mb-3">
+              <input style="font-size: small;    width: 3rem;" type="text" class="form-control emaiField"
+                placeholder="{{'shared.Email'|translate}}" formControlName="Email">
+              <div class="input-group-append">
+                <button class="go-input-text" style="cursor: pointer;">{{'shared.Go'|translate}}</button>
+              </div>
+              <div class=" text-danger"><br>
+                <div>{{'validation.required'|translate}}</div>
+                <div>{{'validation.invalid-email'|translate}}</div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class=" col-lg-3 col-md-6  col-sm-12 AdvertisBlock AdvertisBlockPaddingLeft"
+        style="padding-left: 0px !important">
+        <div class="containerOfBlocksOfImages">
+          <div class="imgBlock">
+            <img src="../../../../assets/images/SADAD-Logo.png" class="img-fluid icon" alt="">&nbsp;
+          </div>
+
+          <div class="imgBlock">
+            <img src="../../../../assets/images/visa.png" class="img-fluid icon" alt="">&nbsp;
+          </div>
+
+          <div class="imgBlock">
+            <img src="../../../../assets/images/paypal.png" class="img-fluid icon" alt="">&nbsp;
+          </div>
+
+          <div class="imgBlock">
+            <img src="../../../../assets/images/master.png" class="img-fluid icon" alt="">&nbsp;
+          </div>
+
+          <div class="imgBlock">
+            <img src="../../../../assets/images/armx.png" class="img-fluid icon" alt="">&nbsp;
+          </div>
+
+          <div class="imgBlock">
+            <img src="../../../../assets/images/wallet-filled-money-tool.png" class="img-fluid icon" alt="">&nbsp;
+          </div>
+
+          <div class="social ">
+            <a href="#" class="p-2"><i class="fab fa-facebook-f" style="color:#3b5998; font-size: 25px"></i> </a>
+            <a href="#" class="p-2"><i class="fab fa-twitter" style="color:#1da1f2;font-size: 25px"></i> </a>
+            <a href="#" class="p-2"><i class="fab fa-instagram" style="color:#bc2a8d;font-size: 25px"></i> </a>
+            <a href="#" class="p-2"><i class="fab fa-snapchat-ghost" style="color:#fffc00;font-size: 25px"></i> </a>
+            <a href="#" class="p-2"><i class="fab fa-youtube" style="color:#fe0000;font-size: 25px"></i></a>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>

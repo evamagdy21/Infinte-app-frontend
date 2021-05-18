@@ -1,0 +1,209 @@
+<!-- --------------------------------------------------------------------- -->
+<section [style.background-image]="'url(' +CityBanner+ ')'" style="background-size: cover;
+background-attachment: fixed;position: relative;  background-repeat: round;" class="panner" id="category_banner">
+
+  <div class="coverPhoto">
+
+    <div class="container-fluid">
+      <div class="row fullscreen d-flex align-items-center">
+
+        <div class="col-12 text-center m-auto"><br>
+          <h2 class="animated fadeInUp topTitle panner-title" data-wow-delay="0.5s" style="line-height: 0.9;">
+            {{'shared.stores'|translate}}
+          </h2>
+          <hr class="Line">
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- ------------------------------------------------------------------------ -->
+<section class="storesBody justify-content-center">
+  <br><br>
+  <div class="container">
+    <div class="row  justify-content-center">
+      <div class="checkbox-list p-0 col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12"
+        style="text-align: -webkit-center;text-align: -moz-center;">
+        <div class="card  mb-3 ">
+          <div class="card-header">
+            <h4 class="header-title">{{'store.facilities'|translate}}</h4>
+          </div>
+          <div class="card-body p-0">
+
+            <ul class="Fiteration-list">
+              <li style="padding: 10px;">
+                <input class="SidebarInput" placeholder="{{'store.Searchbykeyword'|translate}}">
+                <label class="toggle"></label>
+              </li>
+              <li style="border-top: 1px solid #d3d3d3;cursor: pointer;">
+                <a class="nav-link done">{{'shared.all-stores'|translate}}</a>
+              </li>
+              <li id="link" style=" cursor: pointer; border-top: 1px solid #d3d3d3;">
+                <a class="nav-link done">
+                  <h6>The Body Shop </h6>
+                  <h6>Apple </h6>
+                  <h6>Du </h6>
+                  <h6>Centrepoint </h6>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card   mb-3 ">
+          <div class="card-body">
+            <h6 class="EvaluationTitle">{{'store.Evaluation'|translate}}</h6> <br>
+            <ul class="Fiteration-list">
+
+              <!-- <li *ngFor="let rate of Rates">
+                <input type="radio" name="Rate" id="rate{{rate.ID}}" (change)="searchwithrate(rate.ID)"
+                  class="custom" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <product-rating [value]="rate.ID"></product-rating>
+
+                <br> <br>
+              </li> -->
+
+
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="card text-white  mb-3 ">
+          <div class="card-body text-center">
+            <img class="img-fluid img" src="../../../../assets/images/person.PNG">
+            <h4 style="font-weight: bold;">{{'store.needHelp'|translate}}</h4>
+            <h4 style="font-weight: bold;"> 9661234567+</h4>
+          </div>
+
+        </div>
+      </div>
+      <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-xs-12 col-sm-12 text-center" style="    margin-bottom: 21px;">
+
+              <a style="cursor: pointer"><img Error="this.src='../../../assets/images/nophoto.png';"
+                  src="../../../../assets/images/store1.jpg" class="img-fluid ProdImg"></a>
+              <div class="card-text  ">
+                <div class="row" style="padding-top:5%;">
+                  <div class="col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12">
+                    <p style="margin-bottom: 0%">The Body Shop</p>
+                    <!-- <product-rating [value]="store.AverageRate"></product-rating> -->
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12 favourite">
+                    <a class="btn buttonweb2" * style="color: red">
+                      <i class="fa fa-heart fa-2x" style="    padding-bottom: 3px;"></i>
+                    </a>
+                    <a class="btn buttonweb2" style="color:#cecece">
+                      <i class="fa fa-heart fa-2x" style="    padding-bottom: 3px;"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img class="img-fluid newimg" src="../../../assets/images/new.png" alt="" />
+                <h5>{{'home.new'|translate}}</h5>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-xs-12 col-sm-12 text-center" style="    margin-bottom: 21px;">
+
+              <a style="cursor: pointer"><img Error="this.src='../../../assets/images/nophoto.png';"
+                  src="../../../../assets/images/store2.jpg" class="img-fluid ProdImg"></a>
+              <div class="card-text  ">
+                <div class="row" style="padding-top:5%;">
+                  <div class="col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12">
+                    <p style="margin-bottom: 0%">Apple</p>
+                    <!-- <product-rating [value]="store.AverageRate"></product-rating> -->
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12 favourite">
+                    <a class="btn buttonweb2" * style="color: red">
+                      <i class="fa fa-heart fa-2x" style="    padding-bottom: 3px;"></i>
+                    </a>
+                    <a class="btn buttonweb2" style="color:#cecece">
+                      <i class="fa fa-heart fa-2x" style="    padding-bottom: 3px;"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img class="img-fluid newimg" src="../../../assets/images/new.png" alt="" />
+                <h5>{{'home.new'|translate}}</h5>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-xs-12 col-sm-12 text-center" style="    margin-bottom: 21px;">
+
+              <a style="cursor: pointer"><img Error="this.src='../../../assets/images/nophoto.png';"
+                  src="../../../../assets/images/store3.jpg" class="img-fluid ProdImg"></a>
+              <div class="card-text  ">
+                <div class="row" style="padding-top:5%;">
+                  <div class="col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12">
+                    <p style="margin-bottom: 0%">Du</p>
+                    <!-- <product-rating [value]="store.AverageRate"></product-rating> -->
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12 favourite">
+                    <a class="btn buttonweb2" * style="color: red">
+                      <i class="fa fa-heart fa-2x" style="    padding-bottom: 3px;"></i>
+                    </a>
+                    <a class="btn buttonweb2" style="color:#cecece">
+                      <i class="fa fa-heart fa-2x" style="    padding-bottom: 3px;"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img class="img-fluid newimg" src="../../../assets/images/new.png" alt="" />
+                <h5>{{'home.new'|translate}}</h5>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-xs-12 col-sm-12 text-center" style="    margin-bottom: 21px;">
+
+              <a style="cursor: pointer"><img Error="this.src='../../../assets/images/nophoto.png';"
+                  src="../../../../assets/images/store4.jpg" class="img-fluid ProdImg"></a>
+              <div class="card-text  ">
+                <div class="row" style="padding-top:5%;">
+                  <div class="col-xl-8 col-lg-8 col-md-8 col-xs-12 col-sm-12">
+                    <p style="margin-bottom: 0%">Centrepoint</p>
+                    <!-- <product-rating [value]="store.AverageRate"></product-rating> -->
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-4 col-xs-12 col-sm-12 favourite">
+                    <a class="btn buttonweb2" * style="color: red">
+                      <i class="fa fa-heart fa-2x" style="    padding-bottom: 3px;"></i>
+                    </a>
+                    <a class="btn buttonweb2" style="color:#cecece">
+                      <i class="fa fa-heart fa-2x" style="    padding-bottom: 3px;"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="image">
+                <img class="img-fluid newimg" src="../../../assets/images/new.png" alt="" />
+                <h5>{{'home.new'|translate}}</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col col-xs-12">
+              <div class="col-xs-12 text-center margin-top-15">
+                <button class="more-btn">{{'home.more'|translate}}</button>
+              </div>
+            </div>
+          </div>
+
+
+
+          <!-- <div class="row" >
+            <div class="col-xl-6 col-lg-6 col-md-6 col-xs-12 col-sm-12  text-center">
+              <i class="fas fa-exclamation-circle wainingIcon"></i>&nbsp;&nbsp;
+              <h3 style="display: inline;">{{'no-stores'|translate}}</h3><br><br><br>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>

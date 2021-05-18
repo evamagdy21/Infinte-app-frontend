@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.css"; 
+
+
+.contentPage{
+    background-color: #f5f6f7  
+}
+
+.heading{
+    background-color: #2e2e2e;
+    text-align: center;
+    color:white;
+    height: 17rem;;
+}
+.noContent{
+    border-top: 1px solid #e13137;
+    border-bottom: 1px solid #e13137;
+    border-width: medium;
+}
+.wainingIcon{
+    display:inline;
+    font-size: 2rem;
+    color:#e13137
+}

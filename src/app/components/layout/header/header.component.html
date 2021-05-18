@@ -1,0 +1,43 @@
+<nav class="navbar p-0 navbar-expand-lg sticky-top {{className}}" #stickyMenu id="navbar">
+  <div class="container">
+    <div class="d-flex  brand order-0">
+      <a class="navbar-brand mr-1" routerLink="home"><img src="../../../../assets/images/logo.png" alt=""
+          class="img-fluid img-responsive animated swing" style=" width: 76%;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse order-0   main-menu" id="collapsingNavbar" style="padding-top: 12px;">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <div class=" form-group col-12">
+            <select class="form-control" (change)="changeLanguage($event)" [(ngModel)]="LangID">
+              <option [value]="1"> العربية </option>
+              <option [value]="2">English</option>
+
+            </select>
+          </div>
+        </li>&nbsp;&nbsp;
+
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show" *ngIf="!isAuthorized()">
+          <button class="btn loginbtn" (click)="login()">
+            <img src="../../../../assets/images/user.png" class="img-fluid"
+              style="margin-bottom: 5px;margin-top: 5px;">&nbsp;
+            {{'shared.LoginUser'|translate}}
+          </button>
+        </li>&nbsp;&nbsp;
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <button class="btn storebtn" routerLink="/search">{{'shared.stores'|translate}}</button>
+        </li>&nbsp;&nbsp;
+        <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+          <button class="btn requestbtn" (click)="GoToRequestCard()">{{'shared.requestCard'|translate}}</button>
+
+        </li>
+
+      </ul>
+    </div>
+
+
+  </div>
+
+</nav>

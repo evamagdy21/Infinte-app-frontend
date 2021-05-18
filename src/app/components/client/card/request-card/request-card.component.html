@@ -1,0 +1,194 @@
+<!-- -----------------Start Of Header-------------------- -->
+
+
+<section class="panner" id="category_banner">
+
+    <div class="coverPhoto">
+
+        <div class="container">
+
+            <div class="row fullscreen d-flex justify-content-center align-items-center">
+
+
+
+                <div class="col-12 text-center m-auto"><br>
+                    <h2 class="animated fadeInUp topTitle panner-title" data-wow-delay="0.5s" style="line-height: 0.9;">
+                        {{'card.paragraph'|translate}}
+                    </h2>
+                    <hr class="Line">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- --------------End of Header -->
+<section class="contentPage">
+    <div class="container">
+        <!-- ---------cover Photer-------------- -->
+
+        <br><br>
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="card container"><br>
+                    <div class="card-body">
+                        <div class="row">
+
+                            <div class="CardRightContent col-lg-5 col-md-5 col-sm-12 col-xs-12 col-12">
+
+                                <div class="col-12">
+                                    <p class="HeaderForm">
+                                        {{'card.HeaderForm'|translate}}
+                                    </p>
+                                    <div class="clear"></div>
+                                    <!-- --------------Form Dev-------------------------- -->
+                                    <form>
+                                        <div class="form-group row">
+
+                                            <div class="col-12 Field">
+                                                <input #txtName type="text" formControlName="FullName"
+                                                    class="form-control" placeholder="{{'card.Name'|translate}}">
+
+
+                                            </div>
+                                            <div class="col-12 Field">
+                                                <input type="text" class="form-control"
+                                                    placeholder="{{'card.phoneNumber'|translate}}">
+
+                                            </div>
+                                            <div class="col-12 Field">
+                                                <input type="email" formControlName="Email" class="form-control"
+                                                    placeholder="{{'card.email'|translate}}">
+
+                                            </div>
+                                            <div class="col-12 Field">
+                                                <input type="text" class="form-control"
+                                                    placeholder="{{'shared.NID'|translate}}">
+
+
+                                            </div>
+
+                                            <div class="col-12 Field">
+                                                <input type="text" formControlName="DetailedAddress"
+                                                    neame="DetailedAddress" class="form-control"
+                                                    placeholder="{{'card.Address'|translate}}">
+
+                                            </div>
+                                            <div class="col-12 Field">
+                                                <input type="text" class="form-control"
+                                                    placeholder="{{'card.FriendInviteCode'|translate}}">
+                                            </div>
+          
+                                            <div class="col-12 AcceptRule">
+                                                <input type="checkbox">
+                                                <a class="LinkOfRules" routerLink="/Page/2" target="_blank">
+                                                    &nbsp;&nbsp;{{'card.Acceptthetermsandconditions'|translate}}</a>
+                                            </div>
+
+                                            <div class="col-12 Location">
+                                                <div class="col-12" style="clear: both; margin-bottom: 10px">
+                                                    <span>{{'card.geolocationadress'|translate}} <i
+                                                            class="fas fa-chevron-down"></i> </span>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row text-center">
+                                            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+
+                                                <div class="row d-flex  justify-content-center">
+                                                    <div class="col-12 paid">
+                                                        <div class="row d-flex  justify-content-center">
+                                                            <div
+                                                                class="col-xl-6 col-lg-6 col-md-12 col-xs-12 col-sm-12 align">
+                                                                <input type="radio"
+                                                                    class="example-radio-button">&nbsp;&nbsp;&nbsp;
+                                                                Name
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12 ContainerButton">
+                                                    <button type="submit"
+                                                        class="Getbtn">{{'card.GetTheCard'|translate}}</button><br><br>
+                                                </div>
+                                                <div class="clear"></div>
+
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                    <!-- --------------ENd Form Dev------------------------->
+                                </div>
+
+                            </div>
+
+                            <div class="CardLeftContent col-lg-7 col-md-7 col-sm-12 col-xs-12 col-12">
+                                <div class="col-12 text-center">
+                                    <h5>{{'card.TheCardWillBeInThisView'|translate}}</h5>
+                                    <div class="card-text" style="text-align: left">
+                                        <p>05&nbsp;123&nbsp;45&nbsp;67</p>
+                                        <div class="Name" style="height: 40px; overflow: hidden;">
+                                            <h6 style="font-weight:bold" *ngIf="txtName.value !=''">{{txtName.value}}
+                                            </h6>
+                                            <h6 style="font-weight:bold" *ngIf="txtName.value ==''"> Eva</h6>
+                                        </div>
+
+
+
+                                        <div class="clear"></div>
+                                        <div style="width: 100px;float: left;">
+                                            <h6 class="carRight" style="font-weight:bold; font-size: smaller;"> 06/20
+                                            </h6>
+
+
+                                        </div>
+
+
+
+
+
+
+                                    </div>
+                                    <img class="img-fluid card-img" src="../../../../../assets/images/card.jpg"><br><br>
+
+                                </div>
+                                <hr style="border: 1px solid #2C2C2F; width:80%;">
+                                <section style="text-align: -webkit-center;text-align: -moz-center; "><br>
+                                    <!-- <h3>{{'card.CostofInfiniteCard'|translate}}</h3><br> -->
+
+                                    <div style="margin-bottom: 10px;">
+                                        <span style="color: #fff;">20 %</span>
+                                        <span style="color: #A8882F"> {{'card.discount'|translate}}</span>
+                                    </div>
+                                    <div class="Price">
+                                        <span>200 $</span>
+                                    </div>
+
+
+
+                                </section>
+                            </div>
+
+                            <hr class="SepratorLine">
+                            <div class="col-12">
+                                <div class="RequestBlock">
+                                    <a style="cursor: pointer;">{{'shared.re-new-card'|translate}}</a>
+                                    <a routerLink="/replace-card"
+                                        style="cursor: pointer;">{{'shared.re-new-card'|translate}}</a>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!--end-->
+
+                    </div>
+                </div><br><br>
+            </div>
+        </div>
+
+    </div>
+</section>

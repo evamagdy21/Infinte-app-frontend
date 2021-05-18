@@ -1,0 +1,845 @@
+<!-- home panner -->
+<section [style.background-image]="'url(' +CityBanner+ ')'" class="home_banner">
+  <div class="container">
+    <div class="row fullscreen d-flex justify-content-center align-items-center">
+      <div class="col-12">
+        <div class="row" style=" padding-top: 15px;">
+          <div class="col-xl-9 col-lg-9 col-md-9 col-xs-12 col-sm-12 slider">
+            <div id="carouselExampleIndicators " class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" style="border:2px solid #2d2c2e">
+                <div class="carousel-item active">
+                  <img class="d-block w-100 img-fluid sliderImg" src="../../../assets/images/Image1.png"
+                    alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 img-fluid sliderImg" src="../../../assets/images/image2.png"
+                    alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100 img-fluid sliderImg" src="../../../assets/images/image3.png"
+                    alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <img class="d-block w-100 img-fluid" style="padding-top: .3rem;" src="../../../assets/images/bannerBar.jpg"
+              alt="First slide">
+          </div>
+          <div class=" col-xl-3 col-lg-3 col-md-3 col-xs-12 col-sm-12">
+            <div class="containerImg container-block">
+              <img src="../../../assets/images/travel_bbg.png" class="img-responsive img-fluid" alt="Snow"
+                style="height:23rem; width:100%">
+              <div class="inner-block">
+                <div class="slider-top-right"></div>
+              </div>
+              <div class="text-block">
+                <p class="travelTitle">
+                  {{'store.featured'|translate}}</p>
+                <h4 style="color:black">{{'home.HolidaysandTravel'|translate}}</h4>
+              </div><br>
+              <button class="btn" routerLink="/offers">{{'shared.discoverOffers'|translate}}&nbsp;<i
+                  class="fas fa-chevron-circle-left icon"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center justify-content-center" style="align-items: center;display: flex;
+        justify-content: center;">
+          <div class="col-12 text-center">
+            <div class="containerArrow text-center">
+              <div class="chevron"></div>
+              <div class="chevron"></div>
+              <div class="chevron"></div>
+              <!-- <span class="text">Scroll down</span>
+              <a class="text" href="https://naegele.it">See it in action</a> -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- offers -->
+<section class="offers">
+  <div class="container">
+    <div class="row ">
+      <div class="col-12">
+        <div class="row ">
+          <div class="col-6">
+            <h4 class="title">
+              {{'home.LastOffers'|translate}}
+            </h4>
+          </div>
+          <div class="col-6">
+            <a routerLink="/offers" style="color:black">
+              <span class="">
+                {{'home.All'|translate}}
+                <i class="fas fa-caret-left"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-1">
+            <hr align="right" class="hr2">
+          </div>
+          <div class="col-11">
+            <hr class="hr1">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 col-md-3 col-xs-12 col-sm-12 offer" >
+            <div class="offer-grid">
+              <div class="product-image">
+                <img onError="this.src='../../../assets/images/nophoto.png';" src="../../../assets/images/img1.png"
+                  class="img-fluid offerImg" style=" width: 300px;height: 180px;">
+                <div class="Discount-block">
+                  <h6 class="Discount-text">20%</h6>
+                </div>
+                <div class="text-center">
+                  <div class="card-text " style="padding-top:5%;">
+                    <!--<product-rating [value]="offer.AverageRate" style="font-size: small"></product-rating>-->
+                    <p style="margin-bottom: 0%">Great Offer</p>
+                    <h6 class="price">44 $</h6>
+                  </div>
+                </div>
+                <div class="img__overlay text-center">
+                  <ul class="social p-0">
+                    <li><a text-center><i class="fa fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-xs-12 col-sm-12 offer">
+            <div class="offer-grid">
+              <div class="product-image">
+                <img onError="this.src='../../../assets/images/nophoto.png';" src="../../../assets/images/img2.png"
+                  class="img-fluid offerImg" style=" width: 300px;height: 180px;">
+                <div class="Discount-block">
+                  <h6 class="Discount-text">70%</h6>
+                </div>
+                <div class="text-center">
+                  <div class="card-text " style="padding-top:5%;">
+                    <!--<product-rating [value]="offer.AverageRate" style="font-size: small"></product-rating>-->
+                    <p style="margin-bottom: 0%">Super Discount</p>
+                    <h6 class="price">22 $</h6>
+                  </div>
+                </div>
+                <div class="img__overlay text-center">
+                  <ul class="social p-0">
+                    <li><a text-center><i class="fa fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-xs-12 col-sm-12 offer">
+            <div class="offer-grid">
+              <div class="product-image">
+                <img onError="this.src='../../../assets/images/nophoto.png';" src="../../../assets/images/img3.png"
+                  class="img-fluid offerImg" style=" width: 300px;height: 180px;">
+                <div class="Discount-block">
+                  <h6 class="Discount-text">50%</h6>
+                </div>
+                <div class="text-center">
+                  <div class="card-text " style="padding-top:5%;">
+                    <!--<product-rating [value]="offer.AverageRate" style="font-size: small"></product-rating>-->
+                    <p style="margin-bottom: 0%">Big Sale</p>
+                    <h6 class="price">60 $</h6>
+                  </div>
+                </div>
+                <div class="img__overlay text-center">
+                  <ul class="social p-0">
+                    <li><a text-center><i class="fa fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 col-xs-12 col-sm-12 offer">
+            <div class="offer-grid">
+              <div class="product-image">
+                <img onError="this.src='../../../assets/images/nophoto.png';" src="../../../assets/images/img4.png"
+                  class="img-fluid offerImg" style=" width: 300px;height: 180px;">
+                <div class="Discount-block">
+                  <h6 class="Discount-text">34%</h6>
+                </div>
+                <div class="text-center">
+                  <div class="card-text " style="padding-top:5%;">
+                    <!--<product-rating [value]="offer.AverageRate" style="font-size: small"></product-rating>-->
+                    <p style="margin-bottom: 0%">Special Offer</p>
+                    <h6 class="price">23 $</h6>
+                  </div>
+                </div>
+                <div class="img__overlay text-center">
+                  <ul class="social p-0">
+                    <li><a text-center><i class="fa fa-eye"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div><br><br><br>
+</section>
+<!-- Success Partners -->
+<section class="SuccessPartners">
+  <div class="container-fluid">
+    <div class="row justify-content-center text-center">
+      <div class="col-12 text-center"><br>
+        <h1>{{'home.SuccessPartners'|translate}}</h1>
+        <hr class="hr3">
+        <h3 class="title2">
+          {{'home.MoreThan'|translate}} 
+          </h3>
+          <span class="text">{{'home.1000Stores'|translate}}</span>
+          <h3 class="title2">
+          {{'home.InOnePlace'|translate}}
+        </h3>
+        <p style="font-size: 24px;">{{'home.Searchyourfavouritestoregetmanydeals'|translate}}</p><br><br>
+      </div>
+      <div class="col-12 text-center">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="row">
+                <div class="col-1"></div>
+                <div class="col-12 col-sm-2 col-xs-2 col-xl-2 col-md-2 col-lg-2 p-0 storeImg">
+                  <div class="offer-grid">
+                    <div class="product-image">
+                      <a style="cursor: pointer">
+                        <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                          src="../../../assets/images/sucesspart1.jpg" style="height: 4rem;
+                          width: 7rem;">
+                      </a>
+                      <!--  <product-rating [value]="store.AverageRate" style="font-size: small"></product-rating>-->
+                      <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                        <ul class="social p-0">
+                          <li>
+                            <button text-center>
+                              <i class="fa fa-eye"></i>
+                            </button>&nbsp;&nbsp;&nbsp;
+
+                          <li>
+                            <button style=" text-align: center; color: #fff;
+                            background-color: #BFA947;
+                            -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+                              <span>
+                                <i class=" fa fa-heart"></i>
+                              </span>
+                            </button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-2 col-xs-2 col-xl-2 col-md-2 col-lg-2 p-0 storeImg">
+
+                  <div class="offer-grid">
+                    <div class="product-image">
+                      <a style="cursor: pointer">
+                        <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                          src="../../../assets/images/sucesspart2.png" style="height: 4rem;
+                          width: 7rem;">
+                      </a>
+                      <!--  <product-rating [value]="store.AverageRate" style="font-size: small"></product-rating>-->
+                      <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                        <ul class="social p-0">
+                          <li>
+                            <button text-center>
+                              <i class="fa fa-eye"></i>
+                            </button>&nbsp;&nbsp;&nbsp;
+
+                          <li>
+                            <button style=" text-align: center; color: #fff;
+                            background-color: #BFA947;
+                            -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+                              <span>
+                                <i class=" fa fa-heart"></i>
+                              </span>
+                            </button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-2 col-xs-2 col-xl-2 col-md-2 col-lg-2 p-0 storeImg">
+
+                  <div class="offer-grid">
+                    <div class="product-image">
+                      <a style="cursor: pointer">
+                        <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                          src="../../../assets/images/sucesspart3.png" style="height: 4rem;
+                          width: 7rem;">
+                      </a>
+                      <!--  <product-rating [value]="store.AverageRate" style="font-size: small"></product-rating>-->
+                      <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                        <ul class="social p-0">
+                          <li>
+                            <button text-center>
+                              <i class="fa fa-eye"></i>
+                            </button>&nbsp;&nbsp;&nbsp;
+
+                          <li>
+                            <button style=" text-align: center; color: #fff;
+                            background-color: #BFA947;
+                            -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+                              <span>
+                                <i class=" fa fa-heart"></i>
+                              </span>
+                            </button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-2 col-xs-2 col-xl-2 col-md-2 col-lg-2 p-0 storeImg">
+
+                  <div class="offer-grid">
+                    <div class="product-image">
+                      <a style="cursor: pointer">
+                        <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                          src="../../../assets/images/sucesspart4.png" style="height: 4rem;
+                          width: 7rem;">
+                      </a>
+                      <!--  <product-rating [value]="store.AverageRate" style="font-size: small"></product-rating>-->
+                      <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                        <ul class="social p-0">
+                          <li>
+                            <button text-center>
+                              <i class="fa fa-eye"></i>
+                            </button>&nbsp;&nbsp;&nbsp;
+
+                          <li>
+                            <button style=" text-align: center; color: #fff;
+                            background-color: #BFA947;
+                            -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+                              <span>
+                                <i class=" fa fa-heart"></i>
+                              </span>
+                            </button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-2 col-xs-2 col-xl-2 col-md-2 col-lg-2 p-0 storeImg">
+
+                  <div class="offer-grid">
+                    <div class="product-image">
+                      <a style="cursor: pointer">
+                        <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                          src="../../../assets/images/sucesspart5.png" style="height: 4rem;
+                          width: 7rem;">
+                      </a>
+                      <!--  <product-rating [value]="store.AverageRate" style="font-size: small"></product-rating>-->
+                      <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                        <ul class="social p-0">
+                          <li>
+                            <button text-center>
+                              <i class="fa fa-eye"></i>
+                            </button>&nbsp;&nbsp;&nbsp;
+
+                          <li>
+                            <button style=" text-align: center; color: #fff;
+                            background-color: #BFA947;
+                            -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+                              <span>
+                                <i class=" fa fa-heart"></i>
+                              </span>
+                            </button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1"></div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="row">
+                <div class="col-1"></div>
+                <div class="col-12 col-sm-2 col-xs-2 col-xl-2 col-md-2 col-lg-2 p-0 storeImg">
+
+                  <div class="offer-grid">
+                    <div class="product-image">
+                      <a style="cursor: pointer">
+                        <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                          src="../../../assets/images/sucesspart6.png" style="height: 4rem;
+                          width: 7rem;">
+                      </a>
+                      <!--  <product-rating [value]="store.AverageRate" style="font-size: small"></product-rating>-->
+                      <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                        <ul class="social p-0">
+                          <li>
+                            <button text-center>
+                              <i class="fa fa-eye"></i>
+                            </button>&nbsp;&nbsp;&nbsp;
+
+        
+                          <li>
+                            <button style=" text-align: center; color: #fff;
+                            background-color: #BFA947;
+                            -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+                              <span>
+                                <i class=" fa fa-heart"></i>
+                              </span>
+                            </button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-2 col-xs-2 col-xl-2 col-md-2 col-lg-2 p-0 storeImg">
+
+                  <div class="offer-grid">
+                    <div class="product-image">
+                      <a style="cursor: pointer">
+                        <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                          src="../../../assets/images/sucesspart7.png" style="height: 4rem;
+                          width: 7rem;">
+                      </a>
+                      <!--  <product-rating [value]="store.AverageRate" style="font-size: small"></product-rating>-->
+                      <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                        <ul class="social p-0">
+                          <li>
+                            <button text-center>
+                              <i class="fa fa-eye"></i>
+                            </button>&nbsp;&nbsp;&nbsp;
+
+                          <li>
+                            <button style=" text-align: center; color: #fff;
+                            background-color: #BFA947;
+                            -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+                              <span>
+                                <i class=" fa fa-heart"></i>
+                              </span>
+                            </button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-2 col-xs-2 col-xl-2 col-md-2 col-lg-2 p-0 storeImg">
+
+                  <div class="offer-grid">
+                    <div class="product-image">
+                      <a style="cursor: pointer">
+                        <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                          src="../../../assets/images/sucesspart8.png" style="height: 4rem;
+                          width: 7rem;">
+                      </a>
+                      <!--  <product-rating [value]="store.AverageRate" style="font-size: small"></product-rating>-->
+                      <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                        <ul class="social p-0">
+                          <li>
+                            <button text-center>
+                              <i class="fa fa-eye"></i>
+                            </button>&nbsp;&nbsp;&nbsp;
+
+              
+                          <li>
+                            <button style=" text-align: center; color: #fff;
+                            background-color: #BFA947;
+                            -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+                              <span>
+                                <i class=" fa fa-heart"></i>
+                              </span>
+                            </button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-2 col-xs-2 col-xl-2 col-md-2 col-lg-2 p-0 storeImg">
+
+                  <div class="offer-grid">
+                    <div class="product-image">
+                      <a style="cursor: pointer">
+                        <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                          src="../../../assets/images/sucesspart9.png" style="height: 4rem;
+                          width: 7rem;">
+                      </a>
+                      <!--  <product-rating [value]="store.AverageRate" style="font-size: small"></product-rating>-->
+                      <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                        <ul class="social p-0">
+                          <li>
+                            <button text-center>
+                              <i class="fa fa-eye"></i>
+                            </button>&nbsp;&nbsp;&nbsp;
+
+                          <li>
+                            <button style=" text-align: center; color: #fff;
+                            background-color: #BFA947;
+                            -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+                                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">
+                              <span>
+                                <i class=" fa fa-heart"></i>
+                              </span>
+                            </button>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-2 col-xs-2 col-xl-2 col-md-2 col-lg-2" style="background-color:#b09b4c;cursor: pointer;" (click)="Search()">
+                  <h4>{{'home.All'|translate}}</h4>
+                </div>
+                <div class="col-1"></div>
+              </div>
+            </div>
+          </div>
+        </div><br>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Our New -->
+<section class="OurNew">
+  <div class="container">
+    <div class="row">
+      <div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <div class="row ">
+          <div class="col-6">
+            <h4 class="title">
+              {{'home.OurNew'|translate}}
+            </h4>
+          </div>
+          <div class="col-6" (click)="Search()">
+            <h4 class="" style="cursor:pointer">
+              {{'home.All'|translate}}
+              <i class="fas fa-caret-left"></i>
+            </h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1">
+            <hr align="right" class="hr2">
+          </div>
+          <div class="col-11">
+            <hr class="hr1">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-xl-2 col-lg-2 col-md-2 col-xs-4 col-sm-4 p-0 storeImg">
+            <div class="offer-grid">
+              <div class="product-image">
+                <a style="cursor: pointer">
+                  <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                    src="../../../assets/images/ournew.jpg" style=" height: 7rem;
+                    width: -webkit-fill-available;">
+                </a>
+                <!--  <product-rating [value]="NewStore.AverageRate" style="font-size: small"></product-rating>-->
+                <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                  <ul class="social p-0">
+                    <li class="col-lg-6 col-md-6">
+                      <button text-center>
+                        <i class="fa fa-eye"></i>
+                      </button>&nbsp;&nbsp;&nbsp;
+                    </li>
+                    <li class="col-lg-6 col-md-6">
+                      <button text-center>
+                        <i class="fa fa-heart"></i>
+                      </button>
+
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-2 col-lg-2 col-md-2 col-xs-4 col-sm-4 p-0 storeImg">
+            <div class="offer-grid">
+              <div class="product-image">
+                <a style="cursor: pointer">
+                  <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                    src="../../../assets/images/ournew1.jpg" style=" height: 7rem; 
+                    width: -webkit-fill-available;">
+                </a>
+                <!--  <product-rating [value]="NewStore.AverageRate" style="font-size: small"></product-rating>-->
+                <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                  <ul class="social p-0">
+                    <li class="col-lg-6 col-md-6">
+                      <button text-center>
+                        <i class="fa fa-eye"></i>
+                      </button>&nbsp;&nbsp;&nbsp;
+                    </li>
+                    <li class="col-lg-6 col-md-6">
+                      <button text-center>
+                        <i class="fa fa-heart"></i>
+                      </button>
+
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-2 col-lg-2 col-md-2 col-xs-4 col-sm-4 p-0 storeImg">
+            <div class="offer-grid">
+              <div class="product-image">
+                <a style="cursor: pointer">
+                  <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                    src="../../../assets/images/ournew2.jpg" style=" height: 7rem;
+                    width: -webkit-fill-available;">
+                </a>
+                <!--  <product-rating [value]="NewStore.AverageRate" style="font-size: small"></product-rating>-->
+                <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                  <ul class="social p-0">
+                    <li class="col-lg-6 col-md-6">
+                      <button text-center>
+                        <i class="fa fa-eye"></i>
+                      </button>&nbsp;&nbsp;&nbsp;
+                    </li>
+                    <li class="col-lg-6 col-md-6">
+                      <button text-center>
+                        <i class="fa fa-heart"></i>
+                      </button>
+
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-2 col-lg-2 col-md-2 col-xs-4 col-sm-4 p-0 storeImg">
+            <div class="offer-grid">
+              <div class="product-image">
+                <a style="cursor: pointer">
+                  <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                    src="../../../assets/images/ournew3.jpg" style=" height: 7rem;
+                    width: -webkit-fill-available;">
+                </a>
+                <!--  <product-rating [value]="NewStore.AverageRate" style="font-size: small"></product-rating>-->
+                <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                  <ul class="social p-0">
+                    <li class="col-lg-6 col-md-6">
+                      <button text-center>
+                        <i class="fa fa-eye"></i>
+                      </button>&nbsp;&nbsp;&nbsp;
+                    </li>
+                    <li class="col-lg-6 col-md-6">
+                      <button text-center>
+                        <i class="fa fa-heart"></i>
+                      </button>
+
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-2 col-lg-2 col-md-2 col-xs-4 col-sm-4 p-0 storeImg">
+            <div class="offer-grid">
+              <div class="product-image">
+                <a style="cursor: pointer">
+                  <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                    src="../../../assets/images/ournew4.jpg" style=" height: 7rem;
+                    width: -webkit-fill-available;">
+                </a>
+                <!--  <product-rating [value]="NewStore.AverageRate" style="font-size: small"></product-rating>-->
+                <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                  <ul class="social p-0">
+                    <li class="col-lg-6 col-md-6">
+                      <button text-center>
+                        <i class="fa fa-eye"></i>
+                      </button>&nbsp;&nbsp;&nbsp;
+                    </li>
+                    <li class="col-lg-6 col-md-6">
+                      <button text-center>
+                        <i class="fa fa-heart"></i>
+                      </button>
+
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-xl-2 col-lg-2 col-md-2 col-xs-4 col-sm-4 p-0 storeImg">
+            <div class="offer-grid">
+              <div class="product-image">
+                <a style="cursor: pointer">
+                  <img class="img-fluid" onError="this.src='../../../assets/images/nophoto.png';"
+                    src="../../../assets/images/ournew5.jpg" style=" height: 7rem;
+                    width: -webkit-fill-available;">
+                </a>
+                <!--  <product-rating [value]="NewStore.AverageRate" style="font-size: small"></product-rating>-->
+                <div class="img__overlay text-center d-flex flex-column justify-content-center">
+                  <ul class="social p-0">
+                    <li class="col-lg-6 col-md-6">
+                      <button text-center>
+                        <i class="fa fa-eye"></i>
+                      </button>&nbsp;&nbsp;&nbsp;
+                    </li>
+                    <li class="col-lg-6 col-md-6">
+                      <button text-center>
+                        <i class="fa fa-heart"></i>
+                      </button>
+
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- get app -->
+<br><br>
+<section class="getapp">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-4 p-0" data-aos="fade-up" data-aos-duration="1000">
+        <img src="../../../assets/images/phone.png" alt="" class="img-fluid">
+      </div>
+      <div class="col-xl-8"><br>
+        <h2 style=" margin-left: 58px;">{{'home.DownloadApp'|translate}}</h2><br>
+        <div class="btns">
+          <a href="#"> <img src="../../../assets/images/download-as-b.png" alt="" class="img-fluid"> </a>&nbsp;
+          <a href="#"> <img src="../../../assets/images/download-gp-b.png" alt="" class="img-fluid"> </a>
+        </div>
+      </div>
+     
+    </div>
+
+  </div>
+</section>
+<!--Connect with us -->
+<section class="ConnectWith">
+  <div class="container">
+    <div class="row text-center" style="padding-top: 106px;">
+      <div class="col-12">
+        <h2>{{'home.ContactWith'|translate}}</h2>
+        <hr class="hr3"><br>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up" data-aos-duration="1000"><br>
+        <h1><img src="../../../assets/images/map-marker.png" class="contactImg"></h1><br><br>
+        <h5 class="name">{{'home.address'|translate}}</h5>
+        <h4>الرياض ,المملكه العربية السعويه</h4>
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up" data-aos-duration="1000"><br>
+        <h1><img src="../../../assets/images/phone-handset.png" class="contactImg"></h1><br><br>
+        <h5 class="name">{{'home.phoneNumber'|translate}}</h5>
+        <h4 style="direction:ltr">+966 &nbsp;123&nbsp;45&nbsp;67</h4>
+
+      </div>
+      <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12" data-aos="fade-up" data-aos-duration="1000"><br>
+        <h1><img src="../../../assets/images/mail.png" class="contactImg"></h1><br><br>
+        <h5 class="name">{{'home.Email'|translate}}</h5>
+        <h4>info@infinte.online</h4>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<ng-template #SubscriptionTemplate let-modal id="SubscriptionTemplate">
+
+  <div class="modal-header" dir="auto">
+    <h5 class="modal-title">{{'shared.subscription'|translate}}</h5>
+    <button type="button" class="close " aria-label="Close" (click)="modal.dismiss('Cross click')">
+
+      <i class="fa fa-times 7x"></i>
+    </button>
+  </div>
+  <div class="modal-body">
+
+    <div class="row">
+      <div class="col-12" style="text-align: end;">
+        <h3 class="model-text">
+          {{'shared.model-content1'|translate}}
+        </h3>
+        <h3 class="model-text">
+          {{'shared.model-content2'|translate}}
+        </h3>
+        <p> {{'shared.model-content3'|translate}}</p>
+      </div>
+      <div class="col-12">
+
+        <div class="row">
+          <div class="col-12">
+            <form [formGroup]="form">
+              <div class="form-group row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+                  <input type="text" class="form-control" placeholder="{{'shared.Email'|translate}}"
+                    formControlName="Email">
+
+                  <div class=" text-danger" *ngIf="(form.controls['Email'].touched|| form.controls['Email'].dirty )">
+                    <br>
+                    <div *ngIf="form.controls['Email'].hasError('required')">{{'validation.required'|translate}}</div>
+                    <div *ngIf="form.controls['Email'].hasError('pattern')">{{'validation.invalid-email'|translate}}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="row text-center">
+    <div class="col-12">
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-primary confirmationbtn" (click)="save()"
+          style=" width: 100%;">{{'card.confirmation'|translate}}</button>
+        <p>{{'shared.footer-content'|translate}} <a routerLinkActive="active"
+            routerLink="/Page/4">{{'shared.privacy'|translate}} </a> {{'shared.and'|translate}}
+          <a routerLinkActive="active" routerLink="/Page/2">{{'shared.TermsandConditions'|translate}}</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</ng-template>
